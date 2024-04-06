@@ -1,0 +1,7 @@
+site_name: Yonder Deeps Docs
+site_url: 
+nav:
+  - Home: index.md
+  - AUV: auv.md
+  - Basestation: basestation.md
+theme: readthedocs
