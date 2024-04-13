@@ -1,8 +1,8 @@
 site_name: Yonder Deeps Docs
 site_url: 
 nav:
-  - Home: index.md
-  - AUV: auv.md
-  - Basestation: basestation.md
-    - React-Webapp: react_webapp.md
+  - Home: 'index.md'
+  - AUV: 'auv.md'
+  - Basestation: 
+    - React-Webapp: 'react_webapp.md'
 theme: readthedocs
