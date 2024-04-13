@@ -20,5 +20,5 @@ To run the React Frontend,
 cd base_station\web_app\React\auv_gui
 npm run start
 ```
-The GUI should start running at http://localhost:3000
+The GUI should start running at http://localhost:3000.
 
