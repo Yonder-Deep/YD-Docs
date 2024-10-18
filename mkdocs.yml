@@ -2,6 +2,8 @@ site_name: Yonder Deeps Docs
 site_url: 
 nav:
   - Home: 'index.md'
+  - Pi-Setup: 'pisetup.md'
+  - Workflow: 'workflow.md'
   - AUV: 'auv.md'
   - Basestation: 
       - React-Webapp: 'react_webapp.md'
