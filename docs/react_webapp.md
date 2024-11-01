@@ -1,21 +1,28 @@
-# React Webapp GUI
+# React Frontend
 
-## Overview
+This frontend is built with a react framework and FastAPI backend. 
 
-We decided to switch from a tkinter GUI to a web-based React GUI for increased performance and editability
-The backend incoporates a Fast API.
+## How to Contribute 
 
-Requirements: bash, npm, python 3.x.x, 
+### First Time Setup
 
-## Setup
+- Prerequistes:
+    - npm
+    - git
+    - python (3.x.x)
+    - TODO: update
 
-To run the webapp, 
-
+To install node dependencies, run:
 ```bash
-cd base_station\web_app  
-bash startup.sh
+cd web_app/auv_gui
+npm install
 ```
 
-The webapp should start running at https://localhost:3000.
-The FastAPI server is running at http://localhost:6543.
+To startup the GUI:
+```bashs
+sh startup.sh
+```
+(Depending on what python version you have, you may have to edit startup.sh to be python or python3.)
+
+
 
