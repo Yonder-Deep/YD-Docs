@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Workflow - Yonder Deeps Docs</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Workflow";
+        var mkdocs_page_input_path = "workflow.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Yonder Deeps Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pisetup/">Pi-Setup</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Workflow</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#stage-1-alpha">Stage 1 - Alpha</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#procedure">Procedure:</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#create-a-ticket">Create a Ticket</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#working-on-a-ticket">Working on a Ticket</a>
+    </li>
+        </ul>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stage-2-beta">Stage 2 - Beta</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stage-3-production">Stage 3 - Production</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../auv/">AUV</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Basestation</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../react_webapp/">React-Webapp</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Yonder Deeps Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Workflow</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="workflow">Workflow</h1>
+<p>This page details the three stage testing process at Yonder Deep.</p>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Purpose</th>
+<th>Branch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alpha</td>
+<td>local development and testing for one particular issue</td>
+<td>varies</td>
+</tr>
+<tr>
+<td>Beta</td>
+<td>integration testing for feature complete code</td>
+<td>development</td>
+</tr>
+<tr>
+<td>Production</td>
+<td>fully functional code that has been thoroughly tested</td>
+<td>master</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stage-1-alpha">Stage 1 - <em>Alpha</em></h2>
+<p>Alpha testing refers to local develoment by a sub-section of the team for a particular issue. This development is done on its own branch and should be tested
+with an AUV and Basestation radio connection before being merged with the development branch.</p>
+<h3 id="procedure">Procedure:</h3>
+<h4 id="create-a-ticket">Create a Ticket</h4>
+<ol>
+<li>
+<p>Navigate to the <a href="https://github.com/Yonder-Deep/Nautilus/issues">Issues</a> page and create a <strong>New Issue</strong> with a relevant title and description.</p>
+</li>
+<li>
+<p>Add your issue to the Github Project <a href="https://github.com/Yonder-Deep/Nautilus/projects/3">board</a> by dragging it from the "Add cards" panel.</p>
+</li>
+</ol>
+<h4 id="working-on-a-ticket">Working on a Ticket</h4>
+<ol>
+<li>
+<p>To start working on a ticket, create a local branch from <code>main</code>. Titling of branch names should follow this format:<br />
+<code>&lt;Ticket Number&gt;/&lt;Title Abbreviation&gt;</code>  </p>
+<p>You can get the ticket number from the Github issue page. An example branch name would be: <code>1/first-ticket</code>. To create the branch, make sure you are in the <code>main</code> branch and then use <code>git checkout -b &lt;BRANCH NAME&gt;</code>.</p>
+</li>
+<li>
+<p>Work on your ticket within your branch, make occasional pulls and merges from main to make sure your code works with the latest changes:
+    <code>git checkout develop
+    git pull
+    git checkout &lt;YOUR BRANCH&gt;
+    git merge develop</code></p>
+</li>
+<li>Add and commit changes when appropriate:
+   <code>git add &lt;FILE&gt;
+   git commit -m "COMMIT MESSAGE"</code>
+   Commit messages should be present imperative. Example: "Add support for data transfer"</li>
+<li>Push your changes to Github:
+   <code>git push</code>
+   If you are pushing your branch to Github for the first time, you will have to do this instead:
+   <code>git push --set-upstream origin &lt;BRANCH NAME&gt;</code></li>
+</ol>
+<p>#### Submitting a Pull Request
+ 1. On Github, go to "Pull requests" and create a new pull request by selecting your branch for the ticket.
+ 2. In the description of the pull request webpage, add:</p>
+<pre><code>`Closes #&lt;Issue Number&gt;`
+</code></pre>
+<ol>
+<li><strong>Make sure</strong> you select develop as the branch being merged to.</li>
+<li>After having your PR reviewed, merge with the develop branch. </li>
+</ol>
+<h2 id="stage-2-beta">Stage 2 - <em>Beta</em></h2>
+<p>Beta refers to testing conducted on a subset of features that need to be tested with a fully set-up AUV and Basestation. This will most likely consist of a pool
+test or something of a similar calibar. These tests are to be conducted periodically (dates TBD).</p>
+<h2 id="stage-3-production">Stage 3 - <em>Production</em></h2>
+<p>Production refers to the stable and fully tested code base. This code should only be updated after features on the develop branch thoroughly work as expected.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../pisetup/" class="btn btn-neutral float-left" title="Pi-Setup"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../auv/" class="btn btn-neutral float-right" title="AUV">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../pisetup/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../auv/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
